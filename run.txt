@@ -1,5 +1,0 @@
-python setup.py sdist      #PRA DAR SETUP
-
-pip install . #PRA TESTAR O PACOTE INSTALANDO LOCAL
-
-twine upload dist/*   #PRA ENVIAR O PACOTE PARA O PYPI
