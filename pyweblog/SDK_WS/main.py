@@ -198,7 +198,6 @@ class LogSQLWSClient:
         })
         
         r = self._wait_for_response('insert_log')
-        print(r)
         return r
 
 
@@ -260,7 +259,7 @@ class LogSQLWSHandler(logging.Handler):
 
 def setup_ws_logger(
     name: str = 'default',
-    server_url: str = "https://pythonweblog.com",
+    server_url: str = "https://logger.pythonweblog.com",
     username: str = None, 
     password: str = None, 
     token: str = None,
