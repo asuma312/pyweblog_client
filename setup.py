@@ -8,7 +8,7 @@ with open(readme_path, "r", encoding="utf-8") as fh:
 
 setup(
     name="pythonweblog_client_ws",
-    version="0.5.0",
+    version="0.6.0",
     author="Lucas Bueno",
     author_email="asuma312@gmail.com",
     description="Python client for the pythonweblog",
